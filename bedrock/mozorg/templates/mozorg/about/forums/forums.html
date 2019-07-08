@@ -38,15 +38,15 @@
   </p>
 
   <form method="get" action="https://groups.google.com/groups" class="c-forum-search">
-  <a href="https://www.google.com/"><img
-       src="https://www.google.com/logos/Logo_25wht.gif"
-       width="75" height="32" alt="Google" /></a>
-     <label>{{ _('Search Forums') }}</label>
-     <input type="text" name="as_q" maxlength="256" value="" />
-       <input type="hidden" name="hl" value="en" />
-       <input type="hidden" name="lr" value="" />
-       <input type="hidden" name="as_ugroup" value="mozilla.*" />
-       <input type="submit" name="btnG" value="{{ _('Search') }}" class="mzp-c-button mzp-t-small" />
+    <a href="https://www.google.com/">
+      <img src="https://www.google.com/logos/Logo_25wht.gif" width="75" height="32" alt="Google" />
+    </a>
+    <label for="query">{{ _('Search Forums') }}</label>
+    <input type="text" name="as_q" maxlength="256" value="" id="query" />
+    <input type="hidden" name="hl" value="en" />
+    <input type="hidden" name="lr" value="" />
+    <input type="hidden" name="as_ugroup" value="mozilla.*" />
+    <input type="submit" name="btnG" value="{{ _('Search') }}" class="mzp-c-button mzp-t-small" />
   </form>
 
   <nav class="toc">
